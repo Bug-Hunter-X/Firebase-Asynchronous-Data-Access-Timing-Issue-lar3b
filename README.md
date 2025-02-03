@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase applications related to asynchronous data access. The bug occurs when attempting to access properties of a document snapshot before the data is fully loaded. The solution utilizes promises or async/await to ensure the data is available before access, resolving the timing-related error.
